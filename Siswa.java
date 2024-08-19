@@ -1,13 +1,15 @@
 public class Siswa {
     // variabel
-    int id;
+    
     String nama;
+    int id;
     double ipk;
 
     public Siswa() {
 
-        id = 0;
+        
         nama = "Kosong";
+        id = 0;
         ipk = 0.0;
 
     }
@@ -16,8 +18,9 @@ public class Siswa {
     // Setter
     // Method
 public void print () {
-    System.out.println("ID : " + id );
+    
     System.out.println("Nama : " + nama );
+    System.out.println("ID : " + id );
     System.out.println("IPK : " + ipk );
 
 }
